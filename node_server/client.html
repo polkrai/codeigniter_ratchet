@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>Client socket</head>
+    <body>
+       <!-- <script src="http://localhost:1337/socket.io/socket.io.js"></script> -->
+		<script src="../assets/js/socket.io.min-1.7.4.js" type="text/javascript"></script>
+        <script>
+            var socket = io('http://25.9.66.162:1337');
+			
+			var group = "med" !== undefined ? "merd" : "broadcast";
+			//socket.emit('broadcast', {'queuetype': 'reuest', 'point_id':'10', 'queue_id': '24589'});
+            
+            socket.on(group, function (mgs){
+				
+				alert(mgs.queuetype);
+			});
+        </script>
+    </body>
+</html>
+

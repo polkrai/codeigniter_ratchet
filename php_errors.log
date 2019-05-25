@@ -1,0 +1,35 @@
+[25-May-2019 08:53:58 UTC] PHP Notice:  PHP Startup: The cli-server SAPI is not supported by pthreads in Unknown on line 0
+[25-May-2019 08:55:12 UTC] PHP Notice:  PHP Startup: The cli-server SAPI is not supported by pthreads in Unknown on line 0
+[25-May-2019 09:05:29 UTC] PHP Notice:  PHP Startup: The cli-server SAPI is not supported by pthreads in Unknown on line 0
+[25-May-2019 09:06:03 UTC] PHP Notice:  PHP Startup: The cli-server SAPI is not supported by pthreads in Unknown on line 0
+[25-May-2019 16:13:40 Asia/Bangkok] PHP Warning:  file_get_contents(https://github.com/chriskacerguis/codeigniter-restserver/archive/3.0.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php on line 206
+[25-May-2019 16:13:40 Asia/Bangkok] PHP Stack trace:
+[25-May-2019 16:13:40 Asia/Bangkok] PHP   1. {main}() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:0
+[25-May-2019 16:13:40 Asia/Bangkok] PHP   2. Installer->install() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:9
+[25-May-2019 16:13:40 Asia/Bangkok] PHP   3. Installer->downloadFromGithub() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:142
+[25-May-2019 16:13:40 Asia/Bangkok] PHP   4. Installer->download() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:159
+[25-May-2019 16:13:40 Asia/Bangkok] PHP   5. file_get_contents() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:206
+[25-May-2019 16:13:40 Asia/Bangkok] PHP Fatal error:  Uncaught RuntimeException: Can't download: https://github.com/chriskacerguis/codeigniter-restserver/archive/3.0.zip in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:208
+Stack trace:
+#0 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(159): Installer->download('https://github....')
+#1 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(142): Installer->downloadFromGithub('restserver', '3.0')
+#2 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(9): Installer->install('restserver', '3.0')
+#3 {main}
+  thrown in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php on line 208
+[25-May-2019 16:14:33 Asia/Bangkok] PHP Warning:  file_get_contents(https://github.com/chriskacerguis/codeigniter-restserver/archive/3.0.zip): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php on line 206
+[25-May-2019 16:14:33 Asia/Bangkok] PHP Stack trace:
+[25-May-2019 16:14:33 Asia/Bangkok] PHP   1. {main}() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:0
+[25-May-2019 16:14:33 Asia/Bangkok] PHP   2. Installer->install() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:9
+[25-May-2019 16:14:33 Asia/Bangkok] PHP   3. Installer->downloadFromGithub() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:142
+[25-May-2019 16:14:33 Asia/Bangkok] PHP   4. Installer->download() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:159
+[25-May-2019 16:14:33 Asia/Bangkok] PHP   5. file_get_contents() C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:206
+[25-May-2019 16:14:33 Asia/Bangkok] PHP Fatal error:  Uncaught RuntimeException: Can't download: https://github.com/chriskacerguis/codeigniter-restserver/archive/3.0.zip in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php:208
+Stack trace:
+#0 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(159): Installer->download('https://github....')
+#1 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(142): Installer->downloadFromGithub('restserver', '3.0')
+#2 C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php(9): Installer->install('restserver', '3.0')
+#3 {main}
+  thrown in C:\Apache24\htdocs\codeigniter_ratchet\bin\install.php on line 208
+[25-May-2019 09:18:24 UTC] PHP Notice:  PHP Startup: The cli-server SAPI is not supported by pthreads in Unknown on line 0

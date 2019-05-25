@@ -1,0 +1,6 @@
+[18-May-2019 00:54:15 Asia/Bangkok] PHP Warning:  require(C:\Apache24\htdocs\timenz_emitter\emitter/../../../../vendor/autoload.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\timenz_emitter\emitter\client.php on line 15
+[18-May-2019 00:54:15 Asia/Bangkok] PHP Stack trace:
+[18-May-2019 00:54:15 Asia/Bangkok] PHP   1. {main}() C:\Apache24\htdocs\timenz_emitter\emitter\client.php:0
+[18-May-2019 00:54:15 Asia/Bangkok] PHP Fatal error:  require(): Failed opening required 'C:\Apache24\htdocs\timenz_emitter\emitter/../../../../vendor/autoload.php' (include_path='.;C:\Apache24\php72\pear') in C:\Apache24\htdocs\timenz_emitter\emitter\client.php on line 15
+[18-May-2019 00:54:15 Asia/Bangkok] PHP Stack trace:
+[18-May-2019 00:54:15 Asia/Bangkok] PHP   1. {main}() C:\Apache24\htdocs\timenz_emitter\emitter\client.php:0
